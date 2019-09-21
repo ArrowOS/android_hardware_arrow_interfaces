@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The LineageOS Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ namespace qti {
 namespace hardware {
 namespace cryptfshw {
 namespace V1_0 {
-namespace lineage {
+namespace ioctl_qti {
 
 using ::android::sp;
 using ::android::hardware::hidl_array;
@@ -47,7 +47,7 @@ class CryptfsHw : public ICryptfsHw {
     Return<int32_t> clearKey() override;
 };
 
-}  // namespace lineage
+}  // namespace ioctl_qti
 }  // namespace V1_0
 }  // namespace cryptfshw
 }  // namespace hardware
