@@ -33,7 +33,7 @@ cc_binary {
     },
     product_variables: {
         arrow: {
-            should_wait_for_qsee: {
+            device_support_wait_for_qsee: {
                 cflags: ["-DWAIT_FOR_QSEE"],
             },
         },
