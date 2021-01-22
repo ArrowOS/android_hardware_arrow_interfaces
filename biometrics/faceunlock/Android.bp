@@ -1,0 +1,12 @@
+java_library {
+    name: "faceunlock_utils",
+    installable: true,
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.aidl",
+    ],
+    aidl: {
+        local_include_dirs: ["src"],
+    },
+}
